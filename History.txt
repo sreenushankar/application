@@ -1,0 +1,589 @@
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~ (main)
+$ git --version
+git version 2.37.1.windows.1
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~ (main)
+$ pwd
+/c/Users/000Z9H744
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~ (main)
+$ cd Desktop/Irish/
+l
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish (main)
+$ ls
+ AZURE/
+ Azure-zerotohero.docx
+ Backend/
+'IWC-Pipelines-Azure-DevOps------- git.pdf'
+'Irish Water Mobile Platform DevSecOps Solution(3) (1).docx'
+'IrishWater Demo.mp4'
+'New Text Document.txt'
+'Slack - @Sushma Goudar - Huddle 2023-01-23 11-54-52.mp4'
+'Slack - @Sushma Goudar - Huddle 2023-01-23 12-02-06.mp4'
+'Slack - @Sushma Goudar - Huddle 2023-01-23 12-03-36.mp4'
+'Slack - @Sushma Goudar - Huddle 2023-01-23 12-14-30.mp4'
+'Slack - @Sushma Goudar - Huddle 2023-01-23 12-48-44.mp4'
+"SriLakshmi Prasanna's Personal Room-20230117 0959-1.mp4"
+'Webex 2022-11-30 11-30-24.mp4'
+'Webex 2022-11-30 13-02-19.mp4'
+'Webex 2023-01-17 15-23-13.mp4'
+'Webex 2023-01-17 15-56-45.mp4'
+'azure interview questions.docx'
+ azure-devops/
+ azure-intellipat.docx
+ document_Azure.pdf
+ irish-main/
+ iw-openshift-setup-main/
+'main notes.txt'
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish (main)
+$ cd AZURE
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE (main)
+$ ls
+17-04-2023/  19-04-2023/
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE (main)
+$ cd 19-04-2023/
+l
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023 (main)
+$ ls
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023 (main)
+$ mkdir working
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023 (main)
+$ ls
+working/
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023 (main)
+$ cd working/
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (main)
+$ ls
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (main)
+$ type nul > FileA.txt
+bash: type: nul: not found
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (main)
+$ type nul > FileB.txt
+bash: type: nul: not found
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (main)
+$ vi FileA.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (main)
+$ vi FileB.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (main)
+$ cat FileA.txt
+This is fileA
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (main)
+$ cat FileB.txt
+This is FileB
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (main)
+$ dir
+FileA.txt  FileB.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (main)
+$ ls -ltr
+total 2
+-rw-r--r-- 1 GMX+000Z9H744 4096 14 Apr 19 12:51 FileA.txt
+-rw-r--r-- 1 GMX+000Z9H744 4096 14 Apr 19 12:52 FileB.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (main)
+$ git init
+Initialized empty Git repository in C:/Users/000Z9H744/Desktop/Irish/AZURE/19-04-2023/working/.git/
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git config --global user.name "sreeni"
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git config --global user.email "sreenushankar777@gmail.com"
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ ^C
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (mas
+$ git add .
+warning: in the working copy of 'FileA.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'FileB.txt', LF will be replaced by CRLF the next time Git touches it
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   FileA.txt
+        new file:   FileB.txt
+
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git commit -m "This is the initial comment"
+[master (root-commit) 3ba5488] This is the initial comment
+ 2 files changed, 2 insertions(+)
+ create mode 100644 FileA.txt
+ create mode 100644 FileB.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ vi FileA.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ cat FileA.txt
+This is fileA
+This is the change in file
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   FileA.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git add .
+warning: in the working copy of 'FileA.txt', LF will be replaced by CRLF the next time Git touches it
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git commit -m "chnaged the files"
+[master 35a1b6f] chnaged the files
+ 1 file changed, 1 insertion(+)
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git log
+commit 35a1b6f8e5c4514dfa6051f812a2b09c44aa7704 (HEAD -> master)
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 13:13:17 2023 +0530
+
+    chnaged the files
+
+commit 3ba548859c94894ac315b533755a3e5a38f57f15
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 13:07:36 2023 +0530
+
+    This is the initial comment
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git checkout ^C
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git checkout 3ba548859c94894ac315b533755a3e5a38f57f15
+Note: switching to '3ba548859c94894ac315b533755a3e5a38f57f15'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 3ba5488 This is the initial comment
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((3ba5488...))
+$ cat FileA
+cat: FileA: No such file or directory
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((3ba5488...))
+$ cat FileA.txt
+This is fileA
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((3ba5488...))
+$ git log
+commit 3ba548859c94894ac315b533755a3e5a38f57f15 (HEAD)
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 13:07:36 2023 +0530
+
+    This is the initial comment
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((3ba5488...))
+$ git log -all
+error: switch `l' expects a numerical value
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((3ba5488...))
+$ git log --all
+commit 35a1b6f8e5c4514dfa6051f812a2b09c44aa7704 (master)
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 13:13:17 2023 +0530
+
+    chnaged the files
+
+commit 3ba548859c94894ac315b533755a3e5a38f57f15 (HEAD)
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 13:07:36 2023 +0530
+
+    This is the initial comment
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((3ba5488...))
+$ git checkout ^C
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((3ba5488...))
+$ git checkout 35a1b6f8e5c4514dfa6051f812a2b09c44aa7704
+Previous HEAD position was 3ba5488 This is the initial comment
+HEAD is now at 35a1b6f chnaged the files
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ cat FileA
+cat: FileA: No such file or directory
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ cat FileA.txt
+This is fileA
+This is the change in file
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ vi FileA.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ cat FileA.txt
+This is fileA
+This is the change in file
+MAking another change
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ git status
+HEAD detached at 35a1b6f
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   FileA.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ git add .
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ git status
+HEAD detached at 35a1b6f
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   FileA.txt
+
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ git rm  --cached FileA.txt File
+FileA.txt  FileB.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ git rm  --cached FileA.txt File
+FileA.txt  FileB.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ git rm  --cached FileA.txt File
+FileA.txt  FileB.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ git rm  --cached FileA^C
+
+
+
+
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ git status
+HEAD detached at 35a1b6f
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   FileA.txt
+
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working ((35a1b6f...))
+$ git checkout master
+Switched to branch 'master'
+M       FileA.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   FileA.txt
+
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git rm --cached FileA.txt
+rm 'FileA.txt'
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git checkout master
+Already on 'master'
+D       FileA.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    FileA.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        FileA.txt
+
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ vi FileA.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ cat FileA.txt
+This is fileA
+This is the change in file
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git add .
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git checkout -b FeatureA
+Switched to a new branch 'FeatureA'
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ git status
+On branch FeatureA
+nothing to commit, working tree clean
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ type nul > FileC.txt
+bash: type: nul: not found
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ Type nul > FileC.txt
+bash: Type: command not found
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ dir
+FileA.txt  FileB.txt  FileC.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ Vi FileC.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ git status
+On branch FeatureA
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        FileC.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ git add FileC.txt
+warning: in the working copy of 'FileC.txt', LF will be replaced by CRLF the next time Git touches it
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ git status
+On branch FeatureA
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   FileC.txt
+
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ git commit -m "added FileC"
+[FeatureA 5ff871c] added FileC
+ 1 file changed, 1 insertion(+)
+ create mode 100644 FileC.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ git log
+commit 5ff871c2dfbf866c2cd8e4b684ae38a9ece2a4b3 (HEAD -> FeatureA)
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 15:15:57 2023 +0530
+
+    added FileC
+
+commit 35a1b6f8e5c4514dfa6051f812a2b09c44aa7704 (master)
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 13:13:17 2023 +0530
+
+    chnaged the files
+
+commit 3ba548859c94894ac315b533755a3e5a38f57f15
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 13:07:36 2023 +0530
+
+    This is the initial comment
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ git checkout master
+Switched to branch 'master'
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ dir
+FileA.txt  FileB.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ dir
+FileA.txt  FileB.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git checkout FeatureA
+Switched to branch 'FeatureA'
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ dir
+FileA.txt  FileB.txt  FileC.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (FeatureA)
+$ git checkout master
+Switched to branch 'master'
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ dir
+FileA.txt  FileB.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git merge FeatureA
+Updating 35a1b6f..5ff871c
+Fast-forward
+ FileC.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 FileC.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ dir
+FileA.txt  FileB.txt  FileC.txt
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+$ git log
+commit 5ff871c2dfbf866c2cd8e4b684ae38a9ece2a4b3 (HEAD -> master, FeatureA)
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 15:15:57 2023 +0530
+
+    added FileC
+
+commit 35a1b6f8e5c4514dfa6051f812a2b09c44aa7704
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 13:13:17 2023 +0530
+
+    chnaged the files
+
+commit 3ba548859c94894ac315b533755a3e5a38f57f15
+Author: sreeni <sreenushankar777@gmail.com>
+Date:   Wed Apr 19 13:07:36 2023 +0530
+
+    This is the initial comment
+
+GMX+000Z9H744@IBM-PF37JVC4 MINGW64 ~/Desktop/Irish/AZURE/19-04-2023/working (master)
+
+==========================================================================================================================
+
+ 500  git --version
+  501  pwd
+  502  cd Desktop/Irish/
+  503  ls
+  504  cd AZURE
+  505  ls
+  506  cd 19-04-2023/
+  507  ls
+  508  mkdir working
+  509  ls
+  510  cd working/
+  511  ls
+  512  type nul > FileA.txt
+  513  type nul > FileB.txt
+  514  vi FileA.txt
+  515  vi FileB.txt
+  516  cat FileA.txt
+  517  cat FileB.txt
+  518  dir
+  519  ls -ltr
+  520  git init
+  521  git config --global user.name "sreeni"
+  522  git config --global user.email "sreenushankar777@gmail.com"
+  523  git add .
+  524  git status
+  525  git commit -m "This is the initial comment"
+  526  git status
+  527  vi FileA.txt
+  528  cat FileA.txt
+  529  git status
+  530  git add .
+  531  git commit -m "chnaged the files"
+  532  git status
+  533  git log
+  534  git checkout 3ba548859c94894ac315b533755a3e5a38f57f15
+  535  cat FileA
+  536  cat FileA.txt
+  537  git log
+  538  git log -all
+  539  git log --all
+  540  git checkout 35a1b6f8e5c4514dfa6051f812a2b09c44aa7704
+  541  cat FileA
+  542  cat FileA.txt
+  543  vi FileA.txt
+  544  cat FileA.txt
+  545  git status
+  546  git add .
+  547  git status
+  548  git status
+  549  git checkout master
+  550  git status
+  551  git rm --cached FileA.txt
+  552  git checkout master
+  553  git status
+  554  vi FileA.txt
+  555  cat FileA.txt
+  556  git add .
+  557  git status
+  558  git checkout -b FeatureA
+  559  git status
+  560  type nul > FileC.txt
+  561  Type nul > FileC.txt
+  562  dir
+  563  Vi FileC.txt
+  564  git status
+  565  git add FileC.txt
+  566  git status
+  567  git commit -m "added FileC"
+  568  git log
+  569  git checkout master
+  570  dir
+  571  dir
+  572  git checkout FeatureA
+  573  dir
+  574  git checkout master
+  575  dir
+  576  git merge FeatureA
+  577  dir
+  578  git status
+  579  git log
+  580  history
+
+
